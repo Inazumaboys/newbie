@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            width: 70%;
+            margin: auto;
+        }
+        .container div{
+            text-align: center;
+            height: 40em;
+            display: flex;
+            margin: auto;
+            align-items: center;
+            justify-content: center;
+            width: 50%;
+        }
+        div.left-side{
+            background-color: aquamarine;
+        }
+        div.right-side{
+            background-color: burlywood
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left-side">
+            <form action="">
+                <table border="2px" style="height: 35em;width: 30em;">
+                    <tr>
+                        <td>
+                            <label>Name</label>
+                        </td>
+                        <td>
+                            <input type="text" name="name" placeholder="Enter your name here">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Email</label>
+                        </td>
+                        <td>
+                            <input type="email" name="email" placeholder="Enter your email here">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Password</label>
+                        </td>
+                        <td>
+                            <input type="text" name="password" placeholder="Enter your password here">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>City</label>
+                        </td>
+                        <td>
+                            <select name="city" >
+                                <option value="jaipur">Jaipur</option>
+                                <option value="Ajmer">Ajmer</option>
+                                <option value="Kanpur">Kanpur</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <input type="submit" name="submit">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <div class="right-side">
+            <img src="https://picsum.photos/seed/picsum/300/300" alt="Image">
+        </div>
+    </div>
+
+</body>
+</html>
